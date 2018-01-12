@@ -1,4 +1,8 @@
-<span ng-controller="mouseMoveCtrl" class="mouse">
-<h2 ng-model="mousex">{{ mousex }}</h2>
-<h1>HEYY</h1>
-<span>
+<div ng-controller="mouseMoveCtrl" class="mouse">
+<div class="big" ng-mousemove="captureCoordinate($event)">
+        <div>{{x}}px {{y}}px</div>
+</div>
+
+</div>
+
+        
