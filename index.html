@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link rel="icon" href="images/pawprint.jpg">
+    <title>Kevin Haggerty</title>
 </head>
-<body>
+<body ng-app="AuthApp">
+    <div ng-view></div>
     <script src="lib/node_modules/angular/angular.min.js"></script>    
+    <script src="./lib/node_modules/angular-route/angular-route.min.js"></script>
+    <script src="./app/app.js"></script>
+    <script src="./lib/controller/ctrl.js"></script>
+    <script src="./lib/controller/contactCtrl.js"></script> 
+    <script src="./lib/controller/resumeCtrl.js"></script>        
 </body>
 </html>
