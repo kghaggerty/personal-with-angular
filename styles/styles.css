@@ -214,6 +214,11 @@ a:active {
       transform: translate3d(4px, 0, 0);
     }
   }
+
+  /*Projects Page */
+  .project_head {
+      font-size: 25px;
+  }
 /* Media Queries */
 
 @media only screen and (max-width: 780px) {
