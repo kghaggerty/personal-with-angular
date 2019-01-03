@@ -226,7 +226,7 @@ a:active {
     [class*="typewriter"] {
         text-decoration: none;
         position: absolute;
-        right: 18%;
+        right: 15%;
         padding-left: 40%;
         padding-top: 10%;
     }
@@ -306,3 +306,5 @@ a:active {
         }
 
     }
+
+    
